@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="basket.css">
+    </head>
+    <body>
+        <h1>SCORE CARD</h1>
+        <div class="container">
+            <div id="Home">
+                <h3>HOME</h3>
+                <h1 id="h1">0</h1>
+                <div id = "b1">
+              <button id="summ" onclick="add()">+1</button>
+            <button id="summ" onclick="add2()">+2</button>
+            <button id="summ" onclick="add3()">+3</button>
+            <button id="summ" onclick="remove()">clear</button>
+        </div>
+            </div>
+            <div id= "Guest">
+                <h3>GUEST</h3>
+                <h1 id="g1">0</h1>
+                <div id ="b2">
+            <button id="summ" onclick="sum()">+1</button>
+            <button id="summ" onclick="sum2()">+2</button>
+            <button id="summ" onclick="sum3()">+3</button>
+            <button  id="summ" onclick="remove1()">clear</button>
+        </div>
+            </div>
+            <button id="win" onclick="winner()">Winner</button>
+            <p id="winp"></p>
+        </div>
+        <script src="basket.js"></script>
+    </body>
+</html>
