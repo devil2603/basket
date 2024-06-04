@@ -56,8 +56,8 @@ function remove1(){
 
 function winner(){
     if(count>count1){
-       winp.innerText="Home is Winner"
+       winp.innerText="Aliens is Winner"
     }else if(count<count1){
-       winp.innerText="Guest is winner"
+       winp.innerText="Unicorns is winner"
     }
 }
